@@ -1,6 +1,8 @@
 # cupid-sdk
 This is a demo SDK of Cupid, which runs on a single machine. We are working on releasing distributed versions of Cupid SDK.
 
+Download the cupid-db.jar and cupid-db-spark-1.0.0-SNAPSHOT.jar from https://drive.google.com/drive/folders/1gc0lZBMEzODX3CcVxF3aSob9iF0FRSb8?usp=drive_link.
+
 To run the sdk, you need to install MySQL (version >= 5.7), Hadoop (version 2.7.1) and HBase (version 2.2.7).
 
 Run ddl.sql to insert all necessary tables and data into MySQL.
