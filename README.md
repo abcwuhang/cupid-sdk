@@ -11,6 +11,6 @@ Put cupid.conf into the directory hdfs://opt/spark-apps
 
 Add libdecrypt.so to LD_LIBRARY_PATH environment variable
 
-Then run "java -agentlib:decrypt -jar cupid-db.jar org.urbcomp.cupid.db.server.CupidDbServerStart" to start the Cupid server.
+Then run "java -agentlib:decrypt -jar cupid-db_encrypt.jar org.urbcomp.cupid.db.server.CupidDbServerStart" to start the Cupid server.
 
 You can compile ConnectRemoteServer.java with the cupid-db.jar to run Cupid.
