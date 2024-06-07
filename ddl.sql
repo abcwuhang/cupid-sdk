@@ -1,6 +1,6 @@
-# CREATE DATABASE if not exists meta_data;
-#
-# use meta_data;
+CREATE DATABASE if not exists meta_data;
+
+use meta_data;
 
 -- User
 DROP TABLE IF EXISTS `sys_user`;
