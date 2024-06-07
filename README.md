@@ -3,7 +3,7 @@ This is a demo SDK of Cupid, which runs on a single machine. We are working on r
 
 Download the cupid-db_encrypt.jar and cupid-db-jdbc-driver-1.0.0-SNAPSHOT_encrypt.jar from [Google Drive](https://drive.google.com/drive/folders/1gc0lZBMEzODX3CcVxF3aSob9iF0FRSb8?usp=drive_link). The former one is the main engine of Cupid and the latter one leverages WebSocket to deal with queries.
 
-We also provide libraries for decrypting the jars, i.e., ```decrypt.dll``` for Windows and ```libdecrypt_cupid.so``` for Linux.
+We also provide libraries for decrypting the jars, i.e., ```decrypt.dll``` for Windows 10 and ```libdecrypt_cupid.so``` for Linux (Ubuntu >= 18.0.4).
 
 To run the SDK, you need to install JDK (version 1.8.0_191), MySQL (version >= 5.7), Hadoop (version 3.2.1) and HBase (version 2.2.7).
 
